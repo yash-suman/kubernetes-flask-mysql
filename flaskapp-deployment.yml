@@ -17,8 +17,8 @@ spec:
     spec:
       containers:
         - name: flaskapi
-          image: flask-api
-          imagePullPolicy: Never
+          image: 719068690778.dkr.ecr.us-east-1.amazonaws.com/qin1-demo:flask-api
+          imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 5000
           env:
@@ -42,4 +42,4 @@ spec:
     targetPort: 5000
   selector:
     app: flaskapi
-  type: LoadBalancer
+  type: NodePort
