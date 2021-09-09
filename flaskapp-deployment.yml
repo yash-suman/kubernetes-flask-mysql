@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: flaskapi
-          image: 719068690778.dkr.ecr.us-east-1.amazonaws.com/qin1-demo1:1.5
+          image: public.ecr.aws/l5s6p1j3/qin1-demo1
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 5000
