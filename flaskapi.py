@@ -19,7 +19,7 @@ mysql.init_app(app)
 @app.route("/")
 def index():
     """Function to test the functionality of the API"""
-    return "Hello, this is  devops-kubernetes-mysql-working-example1  "
+    return "Hello, this is  devops-kubernetes-mysql-working-example-yash "
 
 
 @app.route("/create", methods=["POST"])
